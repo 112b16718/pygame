@@ -1,0 +1,16 @@
+import turtle
+def draw(y):
+    turtle.color(y)
+    turtle.circle(60)
+turtle.goto(-100,0)
+draw('blue')
+turtle.goto(0,0)
+draw('black')
+turtle.goto(100,0)
+draw('red')
+turtle.goto(50,30)
+turtle.right(180)
+draw('green')
+turtle.goto(-50,30)
+draw('yellow')
+turtle.done()
